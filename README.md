@@ -11,13 +11,16 @@ Includes an admin command to list saved inventories for a player with slot numbe
 
 Commands:
 restoreinv <steamid> <slot>
+
 Restores the specified inventory slot for a player by their Steam ID.
+
 Example:
 restoreinv 76561198012345678 1
 This restores the first saved inventory for the player.
 
 restoreinv <steamid> list
 Lists all saved inventory slots for a player by their Steam ID, displaying the timestamp, number of items, and slot number.
+
 Example:
 restoreinv 76561198012345678 list
 This outputs a list of the player's saved inventories.
